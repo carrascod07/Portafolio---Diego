@@ -11506,16 +11506,16 @@ pre .code {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  /* Fondo: degradado + imagen */
-  background-image: 
+  background-image:
       linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url("../imgs/cv_online/header.jpg");
+      url("../imgs/cv_online/header.JPG"); /* ← EXACTO */
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: #fff;
 }
-
 
 .header .container {
   position: relative;
