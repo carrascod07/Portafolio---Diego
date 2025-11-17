@@ -11693,3 +11693,13 @@ pre .code {
 .portfolio .portfolio-container .col-lg-4 {
     padding: 15px;
 }
+.header {
+    background-image: url("imgs/cv_online/header.JPG") /* ← ruta de tu imagen */
+    background-size: cover;        /* la imagen cubre todo el header */
+    background-position: center;   /* se centra */
+    background-repeat: no-repeat;  /* evita repeticiones */
+    background-attachment: fixed;  /* efecto parallax (opcional) */
+    min-height: 100vh;             /* altura de pantalla completa */
+    display: flex;
+    align-items: center;
+}
