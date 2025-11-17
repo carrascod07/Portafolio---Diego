@@ -11682,3 +11682,14 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+/* CORRECCIÓN: permitir que Bootstrap controle el grid */
+.portfolio-item {
+    width: 100%;
+    display: block;
+}
+
+/* Asegurar que los elementos hijos no rompan el flujo */
+.portfolio .portfolio-container .col-md-6,
+.portfolio .portfolio-container .col-lg-4 {
+    padding: 15px;
+}
